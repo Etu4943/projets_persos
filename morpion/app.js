@@ -1,8 +1,12 @@
-let tour = 2;
+let tour = 0;
 
 let tabJeu = new Array;
 
-tabJeu = [[NaN,NaN,NaN],[NaN,NaN,NaN],[NaN,NaN,NaN]]; // NaN car c'est le seul "type" qui n'est pas égal à lui même;
+tabJeu = [
+    [NaN,NaN,NaN],
+    [NaN,NaN,NaN],
+    [NaN,NaN,NaN]
+]; // NaN car c'est le seul "type" qui n'est pas égal à lui même;
 
 for(let iCase = 1 ; iCase < 10 ; iCase ++){
     document.getElementById(iCase).addEventListener('click', (event) => {
